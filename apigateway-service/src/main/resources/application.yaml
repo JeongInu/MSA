@@ -31,7 +31,7 @@ spring:
 #                - AddResponseHeader=f-response, 1st-response-header-from-yaml
                 - CustomFilter
             - id: second-service
-              uri: lb://MY-SECOND_SERVICE
+              uri: lb://MY-SECOND-SERVICE
               predicates:
                 - Path=/second-service/**
               filters:
